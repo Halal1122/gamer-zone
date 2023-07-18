@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-section{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.navbar-section img{
+    width: 80px;
+    height: 40px;
+}
+.navbar-section h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.navbar-section h2 .logo-text{
+    color: #FF42A5;
+}
+body nav{
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-icon-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+.nav-icon-section a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #3C354F;
+    
+}
+.Follow-btn{
+    padding: 10px 25px;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    align-items: center;
+}
+.first-img .secend-img{
+    padding-right: 10px;
+}
+.secend-img{
+    padding-left: 10px;
+}

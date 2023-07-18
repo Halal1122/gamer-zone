@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+    body nav {
+        flex-direction: column;
+        align-items: center;
+        /* max-width: 1440px;
+        margin: 0 auto; */
+    }
+
+    .nav-icon-section {
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+    }
+
+    .nav-icon-section a{
+        padding-top: 20px;
+    }
+    
+
+}
