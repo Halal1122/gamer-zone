@@ -158,6 +158,18 @@ section .section-text {
     bottom: 250px;
 }
 /* -------------------- card section end ----------- */
+
+
+/* btn section start */
+
+.btn-section{
+    /* display: grid; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-content: center;
+    width: 120%;
+}
+/* btn section end */
 }
 
 
