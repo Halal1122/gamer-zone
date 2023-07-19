@@ -119,6 +119,7 @@ section .section-text {
 .card-section {
     flex-direction: column;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 .card-text {
     width: 100%;
@@ -163,13 +164,53 @@ section .section-text {
 /* btn section start */
 
 .btn-section{
-    /* display: grid; */
+    margin-top: 50px;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
     justify-content: center;
-    width: 120%;
+    width: 200%;
+}
+
+.btn-icon{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    margin-left: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn-icon:hover {
+    background: #f44336;
+    color: white;
+  }
+.danger:hover {
+    background: #f44336;
+    color: white;
+  }
+.btn-icon img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.btn-icon p{
+    color: #0B0223;
+    font-size: .9rem;
+    font-size: 400;
 }
 /* btn section end */
+
+/* footer-section-start */
+
+
+
+
+
+
+
+/* footer-section-end */
 }
 
 
