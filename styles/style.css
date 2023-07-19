@@ -70,21 +70,19 @@ body nav {
 /* ------------------ navbar-section ends ------------------- */
 
 /* ------------------ cover-section strats ------------------ */
-body section{
+body section {
     display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .section-text {
     background-image: url(/images/Group-14.png);
     background-repeat: no-repeat;
     width: 50%;
-    text-align: center;
-    align-items: center;
-    
-}
-.section-text p{
-        display: grid;
-        align-items: center;
+    /* text-align: center;
+    align-items: center; */
+
 }
 
 .section-text h3 {
@@ -97,7 +95,10 @@ body section{
 .section-text h1 {
     font-size: 5.5rem;
     font-weight: 800;
-    color: #F948B2;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -125,46 +126,65 @@ body section{
     background-color: #4EC5F7;
     ;
 }
-section .section-text{
+
+section .section-text {
     width: 50%;
 }
-.cover-img{
-width: 500px;
-height: 500px;
-background: #FFF;
-align-items: center;
-margin-left: 60px;
+
+.cover-img {
+    width: 500px;
+    height: 500px;
+    background: #FFF;
+    align-items: center;
+    margin-left: 60px;
 }
-.section .section-text > .text-icon{
+
+.section .section-text>.text-icon {
     display: grid;
-} 
+}
+
 /*------- cover section ends ---------*/
 
 /* ---------online game start------- */
-.online-games-header{
-    flex-direction: column;
-    text-align: center;
-    width: 100px;
 
-}
-.header{
-    color: #0B0223;
+.header-section {
     font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 15px;
+    color: #0B0223;
     text-align: center;
-}
-.p-tag{
-    color: #534C64;
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-top: 5px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-.grid-container{
-    display: grid;
-    max-width: 1400px;
+    margin-bottom: 5px;
 }
 
+.header-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p-tag {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    max-width: 1400px;
+    margin: 50px auto 0;
+    min-width: 400px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.games-img{
+    width: 100%;
+}
+.grid-container p{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 5px 20px;
+}
 /* ---------online game end------- */

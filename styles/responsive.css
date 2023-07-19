@@ -1,17 +1,20 @@
 @media screen and (max-width: 400px) {
-    
+
     body nav {
         flex-direction: column;
         align-items: center;
         width: 150%;
     }
+
     .navbar-section img {
         /* margin: 10px 100x; */
     }
+
     .navbar-section {
         display: flex;
         align-items: center;
     }
+
     .nav-icon-section {
         flex-direction: column;
         justify-content: center;
@@ -19,55 +22,102 @@
         align-items: center;
         margin: 0 80px;
     }
+
     .Follow-btn {
         padding: 15px 35px;
         margin-top: 20px;
-        
+
     }
-/* nevber end ---------*/
-    
-.nav-icon-section a{
+
+    /* nevber end ---------*/
+
+    .nav-icon-section a {
         padding-top: 20px;
     }
-    body section{
+
+    body section {
         flex-direction: column;
         width: 480px;
     }
+
     .section-text {
-        
+        margin-top: 50px;
+        width: 1000px;
         text-align: center;
-        align-items: center; 
-    }
-    section .section-text{
-        /* margin: 50px; */
-        
-    }
-    .section-text h3 {
-        font-size: 2rem;
-        font-weight: 500;
-        margin-bottom: 0px;
         align-items: center;
-    }
-    
-    .section-text h1 {
-        font-size: 4rem;
-        font-weight: 800;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    
-    .section-text button{
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    section .section-text{
-        width: 120%;
-        align-items: center;
+        margin-bottom: 20px;
     }
 
+
+/*---------- online games start -----*/
+.section-text h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+    align-items: center;
 }
+
+.section-text h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.section-text button {
+    flex-direction: column;
+    align-items: center;
+}
+
+section .section-text {
+    width: 120%;
+    align-items: center;
+}
+
+
+.header-section {
+    width: 550px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.p-tag {
+    width: 500px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 30px;
+    text-align: center;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    width: 140%;
+    margin: 40px 40px;
+}
+
+.games-img {
+    width: 90%;
+}
+
+.grid-container p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 10px 50px;
+    margin-top: 0px;
+}
+}
+
+
+/*---------- online games end -----*/
+
+
 /* Tablet-responsive */
-@media screen and (min-width: 577px )(max-width: 767px){
-
-}
+@media screen and (min-width: 577px)(max-width: 767px) {}
