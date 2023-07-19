@@ -113,10 +113,55 @@ section .section-text {
     padding: 10px 50px;
     margin-top: 0px;
 }
+/*---------- online games end -----*/
+/* -------------------- card section start ----------- */
+
+.card-section {
+    flex-direction: column;
+    margin-top: 50px;
+}
+.card-text {
+    width: 100%;
+   
+}
+.card-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 120%;
+    margin: 50px;
+    margin-bottom: 5px;
+}
+.card-text p {
+    width: 120%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 40px;
+    margin: 70px;
+    margin-top: 0px;
+   
+}
+
+.card-img{
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.card-big-img {
+    width: 120%;
+    margin-right: 100px;
+}
+.card-small-img {
+    width: 60%;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    position: relative;
+    bottom: 250px;
+}
+/* -------------------- card section end ----------- */
 }
 
 
-/*---------- online games end -----*/
+
 
 
 /* Tablet-responsive */
