@@ -1,21 +1,73 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 400px) {
+    
     body nav {
         flex-direction: column;
         align-items: center;
-        /* max-width: 1440px;
-        margin: 0 auto; */
+        width: 150%;
     }
-
+    .navbar-section img {
+        /* margin: 10px 100x; */
+    }
+    .navbar-section {
+        display: flex;
+        align-items: center;
+    }
     .nav-icon-section {
         flex-direction: column;
-        justify-content: space-evenly;
-        width: 100%;
+        justify-content: center;
+        width: 150%;
+        align-items: center;
+        margin: 0 80px;
+    }
+    .Follow-btn {
+        padding: 15px 35px;
+        margin-top: 20px;
+        
+    }
+/* nevber end ---------*/
+    
+.nav-icon-section a{
+        padding-top: 20px;
+    }
+    body section{
+        flex-direction: column;
+        width: 480px;
+    }
+    .section-text {
+        
+        text-align: center;
+        align-items: center; 
+    }
+    section .section-text{
+        /* margin: 50px; */
+        
+    }
+    .section-text h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+    
+    .section-text h1 {
+        font-size: 4rem;
+        font-weight: 800;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .section-text button{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section .section-text{
+        width: 120%;
         align-items: center;
     }
 
-    .nav-icon-section a{
-        padding-top: 20px;
-    }
-    
+}
+/* Tablet-responsive */
+@media screen and (min-width: 577px )(max-width: 767px){
 
 }

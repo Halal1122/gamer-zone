@@ -1,56 +1,141 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-*{
+
+* {
     box-sizing: border-box;
 }
-body{
+
+.primary-text {
+    color: #F948B2;
+}
+
+body {
     font-family: 'Lato', sans-serif;
 }
 
-.navbar-section{
+.navbar-section {
     display: flex;
     width: 50%;
     align-items: center;
 }
-.navbar-section img{
+
+.navbar-section img {
     width: 80px;
     height: 40px;
 }
-.navbar-section h2{
+
+.navbar-section h2 {
     font-size: 45px;
     font-weight: 700;
     margin-left: 10px;
 }
-.navbar-section h2 .logo-text{
-    color: #FF42A5;
-}
-body nav{
+
+body nav {
     display: flex;
     align-items: center;
     max-width: 1440px;
     margin: 0 auto;
+    background-color: #FFF;
 }
-.nav-icon-section{
+
+.nav-icon-section {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
     align-items: center;
 }
-.nav-icon-section a{
+
+.nav-icon-section a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 500;
     color: #3C354F;
-    
+
 }
-.Follow-btn{
+
+.Follow-btn {
     padding: 10px 25px;
     background: rgba(11, 2, 35, 0.10);
     border-radius: 8px;
     align-items: center;
+    margin-bottom: 30px;
 }
-.first-img .secend-img{
+
+.first-img .secend-img {
     padding-right: 10px;
 }
-.secend-img{
+
+.secend-img {
     padding-left: 10px;
 }
+
+/* ------------------ navbar-section ends ------------------- */
+
+/* ------------------ cover-section strats ------------------ */
+body section{
+    display: flex;
+}
+
+.section-text {
+    background-image: url(/images/Group-14.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    
+}
+.section-text p{
+        display: grid;
+        align-items: center;
+}
+
+.section-text h3 {
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.section-text h1 {
+    font-size: 5.5rem;
+    font-weight: 800;
+    color: #F948B2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.btn-sing {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+    border: none;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.btn-rogue {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 35px;
+    border-radius: 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: #4EC5F7;
+    ;
+}
+section .section-text{
+    width: 50%;
+}
+.cover-img{
+width: 500px;
+height: 500px;
+background: #FFF;
+align-items: center;
+margin-left: 60px;
+}
+.section .section-text > .text-icon{
+    display: grid;
+} 
