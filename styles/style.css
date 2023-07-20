@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 * {
+    /* margin: 0;
+    padding: 0; */
     box-sizing: border-box;
 }
 
@@ -60,7 +62,7 @@ body nav {
     align-items: center;
 }
 
-.first-img .secend-img {
+.first-img .second-img {
     padding-right: 10px;
 }
 
@@ -247,8 +249,7 @@ section .section-text {
     border-radius: 8px;
     border: 10px solid #FFF;
     position: relative;
-    bottom: 220px;
-    margin-bottom: 0px;
+    bottom: 160px;
 }
 
 /* -------------------- card section end ----------- */
@@ -276,16 +277,17 @@ section .section-text {
     margin-left: 10px;
     border-radius: 50px;
     cursor: pointer;
+    border: 2px solid transparent;
 }
 
 .btn-icon:hover {
-    background: #f44336;
+    border-color: #f44336;
     color: white;
   }
-.danger:hover {
+/* .danger:hover {
     background: #f44336;
     color: white;
-  }
+  } */
 .btn-icon img{
     width: 40px;
     height: 50px;
@@ -332,7 +334,6 @@ footer h2{
     color: #FFF;
     margin-top: 10px;
     margin-bottom: 10px;
-    /* padding: 50px 0; */
 }
 .sponserd-icon{
     display: flex;
@@ -344,7 +345,6 @@ footer h2{
 
 .Policy-section{
     display: flex;
-    /* color: rgba(236, 230, 230, 0.6); */
     font-size: 1rem;
     font-weight: 500;
     align-items: center;

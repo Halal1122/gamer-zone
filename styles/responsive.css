@@ -1,13 +1,9 @@
-@media screen and (max-width: 400px) {
-
+@media screen and (max-width: 425px) {
+    /* navbar start ---------*/
     body nav {
         flex-direction: column;
         align-items: center;
         width: 150%;
-    }
-
-    .navbar-section img {
-        /* margin: 10px 100x; */
     }
 
     .navbar-section {
@@ -20,7 +16,6 @@
         justify-content: center;
         width: 150%;
         align-items: center;
-        margin: 0 80px;
     }
 
     .Follow-btn {
@@ -29,7 +24,7 @@
 
     }
 
-    /* nevber end ---------*/
+    /* navbar end ---------*/
 
     .nav-icon-section a {
         padding-top: 20px;
@@ -164,20 +159,21 @@ section .section-text {
 /* btn section start */
 
 .btn-section{
-    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
     justify-content: center;
-    width: 200%;
+    align-items: center;
+    width: 100%;
+    margin-left: 100px;
 }
 
 .btn-icon{
     display: flex;
     align-items: center;
-    width: 200px;
-    height: 80px;
-    margin-left: 10px;
+    width: 180px;
+    height: 70px;
+    /* margin-left: 10px; */
     border-radius: 50px;
     cursor: pointer;
 }
@@ -204,10 +200,49 @@ section .section-text {
 
 /* footer-section-start */
 
+footer{
+    width: 175%;
+}
+.footer-icon{
+    font-size: 2rem;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* align-items: center; */
+    /* justify-items: center; */
+    margin: 10px 50px;
+   
+}
+.sponsor-icon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: center;
+    margin: 10px 80px;
+    margin-right: 50px;
+}
+.Policy-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 2rem;
+    font-weight: 500;
+    justify-items: start;
+    margin-top: 20px;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.60);
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
 
-
-
-
+.Copyright{
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: #bab7b7;
+    text-align: center;
+    margin:  0 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
 
 
 /* footer-section-end */
@@ -218,4 +253,29 @@ section .section-text {
 
 
 /* Tablet-responsive */
-@media screen and (min-width: 577px)(max-width: 767px) {}
+@media screen and (min-width: 577px)and(max-width: 767px) {
+    /* navbar start ---------*/
+    body nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-section {
+        display: flex;
+        width: 500%;
+        align-items: center;
+    }
+
+    .nav-icon-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Follow-btn {
+        padding: 15px 35px;
+        margin-top: 20px;
+
+    }
+    /* navbar end ---------*/
+}
